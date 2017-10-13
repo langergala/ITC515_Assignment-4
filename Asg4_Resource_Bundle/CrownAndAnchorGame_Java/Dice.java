@@ -10,8 +10,8 @@ public class Dice {
 		return value;
 	}
 
-	public roll() {
-		return DiceValue.getRandom();
+	public void roll() {
+		value = DiceValue.getRandom();
 	}		
 	
 	public String toString() {
