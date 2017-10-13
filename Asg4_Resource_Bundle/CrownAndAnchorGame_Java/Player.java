@@ -36,7 +36,7 @@ public class Player {
 		balance = balance - bet;
 	}
 	
-	public void receiveWinnings(int winnings) {
+	public void receiveWinnings(int winnings, int bet) {
 		if (winnings < 0) throw new IllegalArgumentException("Winnings cannot be negative.");
 		balance = balance + winnings + bet;		
 	}
