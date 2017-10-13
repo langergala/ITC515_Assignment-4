@@ -10,7 +10,7 @@ public class Dice {
 		return value;
 	}
 
-	public DiceValue roll() {
+	public roll() {
 		return DiceValue.getRandom();
 	}		
 	
